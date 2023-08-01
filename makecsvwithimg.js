@@ -14,8 +14,8 @@ for (const d of data) {
   const d2 = { no };
   Object.assign(d2, d);
   const nimg = photo.find(p => p.no == no).nimg;
-  d2.img = base + no + "-1.jpg";
-  d2.nimg = nimg;
+  d2.image = base + no + "-1.jpg";
+  d2.nimage = nimg;
   list.push(d2);
   no++;
 }
